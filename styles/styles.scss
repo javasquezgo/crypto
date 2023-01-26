@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap");
+@import "./variable";
+@import "./config";
+
+.header__top {
+  @extend %displayFlex;
+}
+
+.header__top i {
+  color: $aqua;
+  font-size: 3.4rem;
+}
+
+header .container ul {
+  margin: 35px 0;
+}
+
+header .container ul li {
+  margin-bottom: 12px;
+}
+
+header .container ul a span {
+  color: $text-grey;
+  font-weight: 900;
+  font-size: 1.6rem;
+  line-height: 1.878rem;
+}
+
+.hero .container h1 {
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4.4rem;
+  text-align: center;
+  color: $text-grey;
+  margin-bottom: 28px;
+}
+
+.hero .container p {
+  font-family: $roboto;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  text-align: center;
+  color: $text-light;
+  margin-bottom: 66px;
+}
+
+.hero .container a {
+  display: block;
+  text-align: center;
+  margin-bottom: 132px;
+}
+
+.hero .container a span {
+  padding: 16px 51px;
+  background-color: $aqua;
+  color: $white;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  border-radius: 10px;
+}
+
+.market h2 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: $text-grey;
+}
