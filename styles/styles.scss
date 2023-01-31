@@ -47,4 +47,161 @@
   line-height: 28.8px;
   text-align: center;
   color: $text-light;
+  margin-bottom: 50px;
+}
+
+.hero__button {
+  display: block;
+  text-align: center;
+  margin-bottom: 136px;
+}
+
+.hero__button span {
+  padding: 16px 51.5px;
+  background-color: $aqua;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 24px;
+  color: $white;
+  border-radius: 10px;
+}
+
+.market__title {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 32px;
+  color: $white;
+  margin-bottom: 24px;
+}
+
+.crypto__cards {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  gap: 24px;
+}
+
+.card {
+  flex: 0 0 297px;
+  height: 187px;
+  min-width: 180px;
+  padding: 18px 21px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.card__up {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.card__down {
+  margin-top: 17px;
+}
+
+.card__up,
+.card__down {
+  @extend %displayFlex;
+  height: 50%;
+}
+
+.card__up--image {
+  width: auto;
+  height: auto;
+}
+
+.card__up--p {
+  font-size: 1.8rem;
+  line-height: 21px;
+  color: $text-light;
+}
+
+.card__up--span {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 11px;
+  color: black;
+  padding: 4px 6px;
+  border-radius: 4px;
+  background-color: #c6c6c6;
+}
+
+.card__down--price,
+.card__down--img {
+  width: 50%;
+}
+
+.price__p,
+.price__percentage {
+  font-family: $roboto;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 28px;
+  color: $text-grey;
+  margin-bottom: 9px;
+}
+
+.price__percentage {
+  font-size: 1.8rem;
+  color: $text-light;
+}
+
+#features {
+  margin-top: 196px;
+}
+
+.features__title {
+  @extend %title;
+  margin-bottom: 26px;
+}
+
+.features__text {
+  @extend %text;
+  margin-bottom: 75px;
+}
+
+.features__cards {
+  display: flex;
+  gap: 24px;
+  overflow-x: scroll;
+  margin-bottom: 140px;
+}
+
+.feature__card {
+  flex: 0 0 296px;
+  height: 343px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  background-color: rgba(255, 255, 255, 0.02);
+  padding: 30px 30px 30px 28px;
+}
+
+.feature__card-img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 27px;
+}
+
+.feature__card-title {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 30px;
+  color: $text-grey;
+  margin-bottom: 12px;
+}
+
+.feature__card-text {
+  font-family: $roboto;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 24px;
+  color: $text-light;
+  margin-bottom: 38px;
+}
+
+.feature__card-link {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 24px;
+  color: $aqua;
 }
